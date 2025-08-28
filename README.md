@@ -40,7 +40,7 @@ void caesarCipher(char *text, int shift)
  }
 int main() 
 {
-    char text[] = "Jeffrey";
+    char text[] = "JEFFRI";
     printf("Plaintext: %s\n",text);
     caesarCipher(text, 3);
     printf("Encrypted Message: %s\n", text);
